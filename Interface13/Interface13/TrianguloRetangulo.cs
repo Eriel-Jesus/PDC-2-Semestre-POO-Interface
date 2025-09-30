@@ -19,19 +19,22 @@ namespace Interface13
 
         public bool FormaTriangulo()
         {
-            return (a + b > c) && (a + c > b) && (b + c > a);
+            if ((a + b > c) && (a + c > b) && (b + c > a)) 
+            {
+                return true;
+            }
+            else { return false; }
         }
 
-        public bool EhRetangulo()
+        public bool ERetangulo()
         {
-            // Para verificar se é retângulo, considera os lados, organiza para hipotenusa
             double[] lados = { a, b, c };
+            //organizar o array para definir a hipotenusa (maior lado)
             Array.Sort(lados);
             double cateto1 = lados[0];
             double cateto2 = lados[1];
             double hipotenusa = lados[2];
 
-            // Usa uma tolerância para evitar erros de ponto flutuante
             return Math.Abs(Math.Pow(hipotenusa, 2) - (Math.Pow(cateto1, 2) + Math.Pow(cateto2, 2))) < 0.0001;
         }
     }

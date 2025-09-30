@@ -40,7 +40,7 @@ namespace Interface12
             }
             catch (FormatException)
             {
-                MessageBox.Show("Digite valores numéricos válidos!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Me ajuda a te ajudar, cara...", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

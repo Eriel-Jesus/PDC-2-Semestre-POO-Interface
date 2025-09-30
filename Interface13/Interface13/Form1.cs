@@ -29,13 +29,11 @@ namespace Interface13
 
                 if (!triangulo.FormaTriangulo())
                 {
-                    lblResultado.Text = "Os valores NÃO formam um triângulo.";
-                   
+                    lblResultado.Text = "Os valores NÃO formam um triângulo.";               
                 }
                 else
                 {
-                    // Formam triângulo
-                    if (triangulo.EhRetangulo())
+                    if (triangulo.ERetangulo())
                     {
                         lblResultado.Text = "Os valores formam um triângulo retângulo.";
                     }
@@ -48,7 +46,7 @@ namespace Interface13
             }
             catch (FormatException)
             {
-                MessageBox.Show("Digite valores numéricos válidos!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Coloca os valores corretamente!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

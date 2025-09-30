@@ -8,9 +8,7 @@ namespace Interface12
 {
     internal class Triangulo
     {
-        private double a;
-        private double b;
-        private double c;
+        private double a, b, c;
 
         public Triangulo(double a, double b, double c)
         {
@@ -21,7 +19,12 @@ namespace Interface12
 
         public bool FormaTriangulo()
         {
-            return (a + b > c) && (a + c > b) && (b + c > a);
+            if ((a + b > c) && (a + c > b) && (b + c > a))
+            {
+                return true;
+            }
+            else return false;
+
         }
 
         public string Classificar()
