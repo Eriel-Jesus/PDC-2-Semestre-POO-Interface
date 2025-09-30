@@ -8,9 +8,7 @@ namespace Interface3
 {
     internal class Quadrado
     {
-        private double diagonal;
-        private double area;
-        private double aresta;
+        private double diagonal, aresta, area;
 
         public Quadrado(double diagonal)
         {

@@ -31,7 +31,7 @@ namespace Interface4
             }
             catch (FormatException)
             {
-                MessageBox.Show("Por favor, insira números válidos.");
+                MessageBox.Show("Tente de novo. Vai conseguir.");
             }
         }
     }

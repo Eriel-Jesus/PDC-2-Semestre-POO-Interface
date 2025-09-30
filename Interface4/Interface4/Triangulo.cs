@@ -8,31 +8,24 @@ namespace Interface4
 {
     internal class Triangulo
     {
-        private double b;
-        private double h;
-        private double area;
-
+        private double b, h, area;
         public Triangulo(double b, double h)
         {
             this.b = b;
             this.h = h;
         }
-
         public void SetBase(double b)
         {
             this.b = b;
         }
-
         public void SetAltura(double h)
         {
             this.h = h;
         }
-
         public double GetBase()
         {
             return this.b;
-        }
-
+        }   
         public double GetAltura()
         {
             return this.h;
@@ -45,7 +38,7 @@ namespace Interface4
 
         public void CalcularArea()
         {
-            this.area = (this.b * this.h) / 2;
+            this.area = ((this.b * this.h) / 2);
         }
     }
 }

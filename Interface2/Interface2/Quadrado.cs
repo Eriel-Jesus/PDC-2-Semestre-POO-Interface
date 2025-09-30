@@ -8,8 +8,7 @@ namespace Interface2
 {
     internal class Quadrado
     {
-            private double aresta;
-            private double area;
+            private double aresta, area;
 
             public Quadrado(double aresta)
             {
