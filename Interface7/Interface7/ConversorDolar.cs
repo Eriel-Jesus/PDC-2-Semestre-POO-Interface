@@ -8,34 +8,34 @@ namespace Interface7
 {
     internal class ConversorDolar
     {
-        private double cotacaoDolar;
-        private double quantidadeDolares;
+        private double cotacao;
+        private double qtddol;
         private double valorReais;
 
-        public ConversorDolar(double cotacaoDolar, double quantidadeDolares)
+        public ConversorDolar(double cotacao, double qtddol)
         {
-            this.cotacaoDolar = cotacaoDolar;
-            this.quantidadeDolares = quantidadeDolares;
+            this.cotacao = cotacao;
+            this.qtddol = qtddol;
         }
 
         public void SetCotacaoDolar(double cotacao)
         {
-            this.cotacaoDolar = cotacao;
+            this.cotacao = cotacao;
         }
 
         public void SetQuantidadeDolares(double quantidade)
         {
-            this.quantidadeDolares = quantidade;
+            this.qtddol = quantidade;
         }
 
         public double GetCotacaoDolar()
         {
-            return this.cotacaoDolar;
+            return this.cotacao;
         }
 
         public double GetQuantidadeDolares()
         {
-            return this.quantidadeDolares;
+            return this.qtddol;
         }
 
         public double GetValorReais()
@@ -45,7 +45,7 @@ namespace Interface7
 
         public void CalcularReais()
         {
-            this.valorReais = this.quantidadeDolares * this.cotacaoDolar;
+            this.valorReais = this.qtddol * this.cotacao;
         }
     }
 }

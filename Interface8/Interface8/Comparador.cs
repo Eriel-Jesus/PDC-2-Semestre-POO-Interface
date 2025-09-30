@@ -8,9 +8,7 @@ namespace Interface8
 {
     internal class Comparador
     {
-        private double valor1;
-        private double valor2;
-        private double maior;
+        private double valor1, valor2, maior;
 
         public Comparador(double valor1, double valor2)
         {

@@ -8,8 +8,7 @@ namespace Interface6
 {
     internal class ConversorMilhas
     {
-        private double milhas;
-        private double km;
+        private double milhas, km;
 
         public ConversorMilhas(double milhas)
         {
@@ -33,7 +32,7 @@ namespace Interface6
 
         public void ConverterParaKm()
         {
-            this.km = this.milhas * 1.852;
+            this.km = (this.milhas * 1.852);
         }
     }
 }

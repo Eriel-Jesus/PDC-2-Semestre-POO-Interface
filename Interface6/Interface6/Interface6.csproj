@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConversorMilhas.cs" />
-    <Compile Include="ConversosMilhas.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
