@@ -35,8 +35,7 @@ namespace Interface1
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            try
-            {
+         
                 double baseRet = double.Parse(txtBase.Text);
                 double alturaRet = double.Parse(txtAltura.Text);
 
@@ -44,11 +43,8 @@ namespace Interface1
                 ret.calcularArea();
 
                 lblResultado.Text = "Área: " + ret.getArea().ToString();
-            }
-            catch (FormatException)
-            {
-                MessageBox.Show("Por favor, insira números válidos.");
-            }
+            
+
         }
     }
 }

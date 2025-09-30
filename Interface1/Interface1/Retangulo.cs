@@ -8,9 +8,7 @@ namespace Interface1
 {
     internal class Retangulo
     {
-        double b;
-        double h;
-        double a;
+        double b, h, a;
 
         public Retangulo()
         {
@@ -24,11 +22,26 @@ namespace Interface1
             this.h = h;
         }
 
-        public void setBase(double b) => this.b = b;
-        public void setAltura(double h) => this.h = h;
-        public double getBase() => this.b;
-        public double getAltura() => this.h;
-        public double getArea() => this.a;
+        public void setBase(double b)
+        {
+            this.b = b;
+        }
+        public void setAltura(double h)
+        {
+            this.h = h;
+        }
+        public double getBase()
+        {
+            return this.b;
+        }
+        public double getAltura()
+        {
+            return this.h;
+        }
+        public double getArea()
+        { 
+            return this.a; 
+        }
 
         public void calcularArea()
         {
