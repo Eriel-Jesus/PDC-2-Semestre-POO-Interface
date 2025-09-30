@@ -9,3 +9,14 @@ C:\Users\gilbe\source\repos\Interface11\Interface11\obj\Debug\Interface11.csproj
 C:\Users\gilbe\source\repos\Interface11\Interface11\obj\Debug\Interface11.exe
 C:\Users\gilbe\source\repos\Interface11\Interface11\obj\Debug\Interface11.pdb
 C:\Users\gilbe\source\repos\Interface11\Interface11\obj\Debug\Interface11.exe.config
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\bin\Debug\Interface11.exe.config
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\bin\Debug\Interface11.exe
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\bin\Debug\Interface11.pdb
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\obj\Debug\Interface11.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\obj\Debug\Interface11.exe.config
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\obj\Debug\Interface11.Form1.resources
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\obj\Debug\Interface11.Properties.Resources.resources
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\obj\Debug\Interface11.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\obj\Debug\Interface11.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\obj\Debug\Interface11.exe
+C:\Users\Acer\Desktop\Documentação Matrícula IFSP Automação Industrial - Eriel de Jesus Souza\Eriel de Jesus\Programação ll - Atividades\PDC-2-Semestre-POO-Interface-main\Interface11\Interface11\obj\Debug\Interface11.pdb

@@ -8,19 +8,17 @@ namespace Interface10
 {
     internal class Terreno
     {
-        private double baseRet;
-        private double altura;
-        private double area;
+        private double baseReta, altura, area;
 
-        public Terreno(double baseRet, double altura)
+        public Terreno(double baseReta, double altura)
         {
-            this.baseRet = baseRet;
+            this.baseReta = baseReta;
             this.altura = altura;
         }
 
         public double GetBase()
         {
-            return this.baseRet;
+            return this.baseReta;
         }
 
         public double GetAltura()
@@ -35,7 +33,7 @@ namespace Interface10
 
         public void CalcularArea()
         {
-            this.area = this.baseRet * this.altura;
+            this.area = this.baseReta * this.altura;
         }
     }
 }

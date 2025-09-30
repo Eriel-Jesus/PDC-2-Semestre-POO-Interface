@@ -40,7 +40,7 @@ namespace Interface11
             }
             catch (FormatException)
             {
-                MessageBox.Show("Digite valores válidos para peso e altura.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Digite o peso e a altura corretamente!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

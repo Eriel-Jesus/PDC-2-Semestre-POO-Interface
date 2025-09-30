@@ -8,9 +8,7 @@ namespace Interface9
 {
     internal class Comparador
     {
-        private double valor1;
-        private double valor2;
-
+        private double valor1, valor2, maior;
         public Comparador(double valor1, double valor2)
         {
             this.valor1 = valor1;
@@ -19,12 +17,25 @@ namespace Interface9
 
         public bool SaoIguais()
         {
-            return this.valor1 == this.valor2;
+            if (this.valor1 == this.valor2)
+            {
+                return true;
+            }
+            else { return false; }
         }
 
         public double DeterminarMaior()
         {
-            return (this.valor1 > this.valor2) ? this.valor1 : this.valor2;
+            if (this.valor1 > this.valor2)
+            {
+                this.maior = this.valor1;
+                return this.maior;
+            }
+            else
+            {
+                this.maior = this.valor2;
+                return this.maior;
+            }
         }
     }
 }

@@ -46,8 +46,13 @@ namespace Interface10
             }
             catch (FormatException)
             {
-                MessageBox.Show("Digite valores numéricos válidos!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Digite os valores corretamente, por favor!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
